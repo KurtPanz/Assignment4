@@ -6,6 +6,7 @@
 
 package com.mycompany.assignment4;
 
+import com.mycompany.assignment4.Interface.DIPService;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,6 +15,8 @@ import java.util.List;
  * @author Kurt
  */
 public class Main {
+  
+    
     public static void main(String[] args)
     {
         //my polymorphism example
@@ -30,10 +33,11 @@ public class Main {
         
         grdR1 = new GradeRs("Sam","Smith","5879403");
         
-        tod1.printToddler();       
-                        
+        tod1.printToddler();  
         
-    
+     
     }
+    
+    
     
 }
